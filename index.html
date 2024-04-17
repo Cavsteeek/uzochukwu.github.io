@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redact Text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Redact Text</h1>
+        <textarea id="originalText" placeholder="Enter your text here..."></textarea>
+        <input type="text" id="wordsToRedact" placeholder="Words to redact (separated by space)">
+        <button onclick="redactText()">Redact Now</button>
+        <button onclick="resetForm()">Reset Form</button>
+        <div id="redactedText"></div>
+
+        <div id="stats"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
